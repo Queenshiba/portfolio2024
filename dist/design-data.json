@@ -1,0 +1,281 @@
+[
+    {
+        "client": "宝塚TERRACE",
+        "year": 2024,
+        "type": "Website",
+        "note": null,
+        "url": "https://takarazukaterrace.com/",
+        "img": "p-takarazukaterrace-website.jpg",
+        "href": "website-takarazukaterrace"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2024,
+        "type": "Business Card",
+        "note": null,
+        "url": null,
+        "img": "p-takarazukaterrace-bc.jpg",
+        "href": "businesscard-takarazukaterrace"
+    },
+    {
+        "client": "HIT THE SWEET SPOT",
+        "year": 2024,
+        "type": "Clothing",
+        "note": null,
+        "url": null,
+        "img": "p-hitthesweetspot-clothing.jpg",
+        "href": "clothing-hitthesweetspot"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2024,
+        "type": "Others",
+        "note": "Cloudfunding",
+        "url": "https://camp-fire.jp/projects/view/726330",
+        "img": "p-takarazukaterrace-cloudfunding.jpg",
+        "href": "others-cloudfunding-takarazukaterrace"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2024,
+        "type": "Others",
+        "note": "Thank-you letter",
+        "url": null,
+        "img": "p-takarazukaterrace-thankyounote.png",
+        "href": "others-thankyounote-takarazukaterrace"
+    },
+    {
+        "client": "株式会社髙山組",
+        "year": 2023,
+        "type": "Website",
+        "note": null,
+        "url": "https://takayamagumi.com/",
+        "img": "p-takayamagumi-website.jpg",
+        "href": "website-takayamagumi"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2023,
+        "type": "Shop Card",
+        "note": null,
+        "url": null,
+        "img": "p-takarazukaterrace-sc.jpg",
+        "href": "shopcard-takarazukaterrace"
+    },
+    {
+        "client": "西武庫少年剣友会",
+        "year": 2023,
+        "type": "Flyer",
+        "note": null,
+        "url": null,
+        "img": "p-nishimukoshonenkenyukai-flyer.jpg",
+        "href": "flyer-nishimukoshonenkenyukai"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2023,
+        "type": "Flyer",
+        "note": null,
+        "url": null,
+        "img": "p-takarazukaterrace-flyer.jpg",
+        "href": "flyer-takarazukaterrace"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2023,
+        "type": "Logo",
+        "note": null,
+        "url": null,
+        "img": "p-takarazukaterrace-logo.jpg",
+        "href": "logo-takarazukaterrace"
+    },
+    {
+        "client": "西武庫少年剣友会",
+        "year": 2023,
+        "type": "Logo",
+        "note": "Existing logo",
+        "url": null,
+        "img": "p-nishimukoshonenkenyukai-logo.jpg",
+        "href": "logo-nishimukokenyukai"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2023,
+        "type": "Event",
+        "note": null,
+        "url": null,
+        "img": "p-takarazukaterrace-event.jpg",
+        "href": "event-takarazukaterrace"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2023,
+        "type": "Others",
+        "note": "Product label",
+        "url": null,
+        "img": "p-takarazukaterrace-productlabel.jpg",
+        "href": "others-productlabel-takarazukaterrace"
+    },
+    {
+        "client": "おでかけサポート",
+        "year": 2022,
+        "type": "Business Card",
+        "note": null,
+        "url": null,
+        "img": "p-odekake-bc.jpg",
+        "href": "businesscard-odekake"
+    },
+    {
+        "client": "ムコパ二",
+        "year": 2022,
+        "type": "Flyer",
+        "note": null,
+        "url": null,
+        "img": "p-mukopani-flyer.jpg",
+        "href": "flyer-mukopani"
+    },
+    {
+        "client": "ムコパ二",
+        "year": 2022,
+        "type": "Logo",
+        "note": null,
+        "url": null,
+        "img": "p-mukopani-logo.jpg",
+        "href": "logo-mukopani"
+    },
+    {
+        "client": "株式会社髙山組",
+        "year": 2021,
+        "type": "Event",
+        "note": null,
+        "url": null,
+        "img": "p-takayamagumi-event1.jpg",
+        "href": "event-takayamagumi"
+    },
+    {
+        "client": "KATEKYO",
+        "year": 2021,
+        "type": "Website",
+        "note": null,
+        "url": "https://queenshiba.github.io/katekyo/",
+        "img": "p-katekyo-website.jpg",
+        "href": "website-katekyo"
+    },
+    {
+        "client": "株式会社髙山組",
+        "year": 2021,
+        "type": "Envelope",
+        "note": null,
+        "url": null,
+        "img": "p-takayamagumi-envlp.jpg",
+        "href": "envelope-takayamagumi"
+    },
+    {
+        "client": "KATEKYO",
+        "year": 2021,
+        "type": "logo",
+        "note": null,
+        "url": null,
+        "img": "p-katekyo-logo.jpg",
+        "href": "logo-katekyo"
+    },
+    {
+        "client": "株式会社髙山組",
+        "year": 2021,
+        "type": "Others",
+        "note": "Leaflet",
+        "url": null,
+        "img": "p-takayamagumi-leaflet.jpg",
+        "href": "others-leaflet-takayamagumi"
+    },
+    {
+        "client": "株式会社髙山組",
+        "year": 2020,
+        "type": "Business Card",
+        "note": null,
+        "url": null,
+        "img": "p-takayamagumi-bc.jpg",
+        "href": "businesscard-takayamagumi"
+    },
+    {
+        "client": "野末建設株式会社",
+        "year": 2020,
+        "type": "Business Card",
+        "note": null,
+        "url": null,
+        "img": "p-nozuekensetsu-bc.jpg",
+        "href": "businesscard-nozuekensetsu"
+    },
+    {
+        "client": "ふたばそろばん",
+        "year": 2020,
+        "type": "Flyer",
+        "note": null,
+        "url": null,
+        "img": "p-futaba-flyer.jpg",
+        "href": "flyer-futabasoroban"
+    },
+    {
+        "client": "野末建設株式会社",
+        "year": 2020,
+        "type": "Envelope",
+        "note": null,
+        "url": null,
+        "img": "p-nozuekensetsu-envlp.jpg",
+        "href": "envelope-nozuekensetsu"
+    },
+    {
+        "client": "野末建設株式会社",
+        "year": 2020,
+        "type": "Logo",
+        "note": "Existing logo",
+        "url": null,
+        "img": "p-nozuekensetsu-logo.jpg",
+        "href": "logo-nozuekensetsu"
+    },
+    {
+        "client": "株式会社髙山組",
+        "year": 2020,
+        "type": "Logo",
+        "note": "Existing logo",
+        "url": null,
+        "img": "p-takayamagumi-logo.jpg",
+        "href": "logo-takayamagumi"
+    },
+    {
+        "client": "照コーポレーション",
+        "year": 2020,
+        "type": "Logo",
+        "note": null,
+        "url": null,
+        "img": "p-terracecorp-logo.jpg",
+        "href": "logo-teraccecorp"
+    },
+    {
+        "client": "ふたばそろばん",
+        "year": 2019,
+        "type": "Website",
+        "note": null,
+        "url": "https://queenshiba.github.io/futabasoroban/",
+        "img": "p-futaba-website.jpg",
+        "href": "website-futabasoroban"
+    },
+    {
+        "client": "ふたばそろばん",
+        "year": 2019,
+        "type": "Business Card",
+        "note": null,
+        "url": null,
+        "img": "p-futaba-bc.jpg",
+        "href": "businesscard-futabasoroban"
+    },
+    {
+        "client": "ふたばそろばん",
+        "year": 2019,
+        "type": "Logo",
+        "note": null,
+        "url": null,
+        "img": "p-futaba-logo.jpg",
+        "href": "logo-futabasoroban"
+    }
+]

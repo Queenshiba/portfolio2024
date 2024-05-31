@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+    <title>Haruka Shibata | Graphic Designer</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <!-- <link rel="stylesheet" href="design-page.css"> -->
+    <link rel="icon" type="image/x-icon" href="/dist/img/favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <a href="/dist/design.html"><img src="/dist/img/p-harukashibata.png" alt=""></a>
+        <div id="menu-wrap">
+            <a href="design.html">DESIGN</a>
+            <a href="illustration.html">ILLUSTRATION</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="https://www.instagram.com/shiba.design.webdevelopment/"><img src="/dist/img/instagramblackandwhite.png" alt=""></a>
+        </div>
+        <div class="line"></div>
+    </nav>
+    <div class="gallery-display">
+        <div id="workName-wrap">
+        </div>
+        <div class="work-img-container"></div>
+        <div class="noteforwork">それは翌日ちゃんとその参考通りというのの上で出ますだろ。しかるに晩に話者はともかくそんな学習うたでもより放っているずでも入会供するなですて、こうとはたべましですなけれな。理が漬けでものもざっと当時に断然ましたあり。</div>
+    </div>
+</body>
+<script src="/dist/main.js">
+
+</script>
+<script>
+    let fileName = location.pathname.split("/").slice(-1);
+    // console.log(fileName)
+    let fileNametext = JSON.stringify(fileName)
+    console.log(fileNametext)
+
+    function addNamesToElements(obj) {
+        // type of work
+        let typeofwork = document.createTextNode(obj[0] + 'デザイン');
+        let h2fortypeofwork = document.createElement('h2')
+        h2fortypeofwork.setAttribute("class", "p-typeofworkName");
+        let gallerydisplay = document.getElementById('workName-wrap')
+        h2fortypeofwork.appendChild(typeofwork)
+        gallerydisplay.appendChild(h2fortypeofwork);
+
+        // add a bar
+        let bar = document.createTextNode('-');
+        let pforbar = document.createElement('p')
+        pforbar.setAttribute("class", "workName-bar");
+        pforbar.appendChild(bar)
+        gallerydisplay.appendChild(pforbar);
+
+        // client Name
+        let clientName = document.createTextNode(obj[1]);
+        let pforclientName = document.createElement('p')
+        pforclientName.setAttribute("class", "p-typeofworkName");
+        pforclientName.appendChild(clientName)
+        gallerydisplay.appendChild(pforclientName);
+    }
+
+    addNamesToElements(
+        getNameFromHtmlFile(fileNametext))
+
+
+</script>
+
+</html>

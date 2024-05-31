@@ -1,0 +1,139 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+
+#menu-wrap a {
+    font-family            : "Cabin", sans-serif;
+    font-optical-sizing    : auto;
+    font-weight            : 400;
+    font-style             : normal;
+    font-variation-settings: "wdth"100;
+    color                  : black;
+    text-decoration        : none;
+}
+
+nav {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+nav>a>img {
+    height    : 180px;
+    margin-top: 1em;
+    outline: none;
+}
+
+#menu-wrap {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: space-around;
+    width          : 90%;
+    margin-top     : 2em;
+}
+
+#menu-wrap a:hover {
+    text-decoration: underline;
+}
+
+#menu-wrap img {
+    height    : 20px;
+    margin-top: 4px;
+}
+
+.line {
+    width        : 80%;
+    border-bottom: 3px solid black;
+
+}
+
+/* title wrap */
+.page-title-wrap {
+    display       : flex;
+    flex-direction: column;
+    text-align    : center;
+    width         : 80%;
+    margin        : 0 auto;
+
+}
+
+.page-title-wrap h2 {
+    font-family            : "Cabin", sans-serif;
+    font-optical-sizing    : auto;
+    font-weight            : 400;
+    font-style             : italic;
+    font-variation-settings: "wdth"100;
+    font-size              : 2em;
+}
+
+.page-title-wrap div {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 2em;
+}
+
+.page-title-wrap img {
+    height     : 2em;
+    /* margin-left: 1em; */
+}
+
+
+/* main container */
+.main-container {
+    display       : flex;
+    flex-direction: row;
+    width         : 80%;
+    margin        : 0 auto;
+}
+
+#gallery-container {
+    flex-wrap      : wrap;
+    align-items    : center;
+    justify-content: space-evenly;
+}
+
+
+.p-item-div {
+    width     : 25vw;
+    height    : 25vw;
+    margin-top: 3em;
+}
+
+
+.p-item-div img {
+    width: 100%;
+
+}
+
+
+/* design page  */
+
+.gallery-display {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    margin-top    : 3em;
+}
+
+#workName-wrap {
+    text-align: center;
+}
+
+#workName-wrap h2,
+p,
+.noteforwork {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style : normal;
+}
+
+.noteforwork {
+    width: 70%;
+}

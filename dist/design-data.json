@@ -33,7 +33,7 @@
         "note": "Cloudfunding",
         "url": "https://camp-fire.jp/projects/view/726330",
         "img": "p-takarazukaterrace-cloudfunding.jpg",
-        "href": "others-cloudfunding-takarazukaterrace"
+        "href": "others-takarazukaterrace-cloudfunding"
     },
     {
         "client": "宝塚TERRACE",
@@ -41,8 +41,8 @@
         "type": "Others",
         "note": "Thank-you letter",
         "url": null,
-        "img": "p-takarazukaterrace-thankyounote.png",
-        "href": "others-thankyounote-takarazukaterrace"
+        "img": "p-takarazukaterrace-thankyounote.jpg",
+        "href": "others-takarazukaterrace-thankyounote"
     },
     {
         "client": "株式会社髙山組",
@@ -96,7 +96,7 @@
         "note": "Existing logo",
         "url": null,
         "img": "p-nishimukoshonenkenyukai-logo.jpg",
-        "href": "logo-nishimukokenyukai"
+        "href": "logo-nishimukoshonenkenyukai"
     },
     {
         "client": "宝塚TERRACE",
@@ -114,7 +114,7 @@
         "note": "Product label",
         "url": null,
         "img": "p-takarazukaterrace-productlabel.jpg",
-        "href": "others-productlabel-takarazukaterrace"
+        "href": "others-takarazukaterrace-productlabel"
     },
     {
         "client": "おでかけサポート",
@@ -186,7 +186,7 @@
         "note": "Leaflet",
         "url": null,
         "img": "p-takayamagumi-leaflet.jpg",
-        "href": "others-leaflet-takayamagumi"
+        "href": "others-takayamagumi-leaflet"
     },
     {
         "client": "株式会社髙山組",

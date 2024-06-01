@@ -2,12 +2,12 @@ fetch('design-data.json')
     .then(response => response.json())
     .then(value => {
         let data = value
-        console.log(data.length)
+        // console.log(data.length)
 
 
 
         for (let i = 0; i < data.length; i++) {
-            const newAtag = document.createElement('a');
+            let newAtag = document.createElement('a');
             newAtag.setAttribute("href", 'design/' + data[i].href + '.html');
             let newDiv = document.createElement("div");
             newDiv.setAttribute("class", "p-item-div");
@@ -18,19 +18,18 @@ fetch('design-data.json')
             newAtag.appendChild(newDiv);
             newDiv.appendChild(itemimage);
             // newDiv.appendChild(newContent);
-            const galleryDiv = document.getElementById("gallery-container");
+            let galleryDiv = document.getElementById("gallery-container");
             galleryDiv.appendChild(newAtag);
         }
 
     })
-
 
 function getNameFromHtmlFile(str) {
     let removequotes = fileNametext.replace(/["']/g, "")
     let removequotesbrackets = removequotes.replace(/[\[\]']+/g, '')
     let removedhtml = removequotesbrackets.substring(0, removequotesbrackets.length - 5);
     let getItemNames = removedhtml.split("-");
-    // console.log(getItemNames)
+    console.log(getItemNames)
 
     let namelisteng = ['website', 'businesscard', 'clothing', 'others', 'shopcard', 'flyer', 'logo', 'event', 'envelope', 'productlabel', 'cloudfunding', 'thankyounote', 'leaflet', 'futabasoroban', 'hitthesweetspot', 'katekyo', 'mukopani', 'nishimukoshonenkenyukai', 'nozuekensetsu', 'odekake', 'takarazukaterrace', 'takayamagumi', 'terracecorp']
     let namelistjp = ['Website', '名刺', 'アパレル', 'その他', 'ショップカード', 'チラシ', 'ロゴ', 'イベント', '封筒', '商品ラベル', 'クラウドファンディング', 'お礼状', 'パンプレット', 'ふたばそろばん', 'HIT THE SWEET SPOT', 'KATEKYO', 'ムコパ二', '西武庫少年剣友会', '野末建設', 'おでかけサポート', '宝塚TERRACE', '株式会社髙山組']
@@ -44,5 +43,22 @@ function getNameFromHtmlFile(str) {
 
     })
     return arr
-    // console.log(arr)
 }
+
+function swichLang() {
+    let jp = document.getElementById('selfintro-jp')
+    let eng = document.getElementById('selfintro-eng')
+    let swichLangBtn = document.getElementById('swichLangBtn')
+
+    if (jp.style.display === "block") {
+        jp.style.display = "none";
+        eng.style.display = "block";
+        swichLangBtn.innerText = "日本語";
+    } else {
+        jp.style.display = "block";
+        eng.style.display = "none";
+        swichLangBtn.innerText = "English";
+    }
+
+}
+

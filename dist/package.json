@@ -1,7 +1,6 @@
 {
   "name": "dist",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -11,5 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

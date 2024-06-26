@@ -30,10 +30,28 @@
         "client": "宝塚TERRACE",
         "year": 2024,
         "type": "Others",
+        "note": null,
+        "url": "https://camp-fire.jp/projects/view/726330",
+        "img": "p-takarazukaterrace-flyer-cf.jpg",
+        "href": "others-takarazukaterrace-cloudfunding-flyer"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2024,
+        "type": "Others",
         "note": "Cloudfunding",
         "url": "https://camp-fire.jp/projects/view/726330",
         "img": "p-takarazukaterrace-cloudfunding.jpg",
         "href": "others-takarazukaterrace-cloudfunding"
+    },
+    {
+        "client": "宝塚TERRACE",
+        "year": 2024,
+        "type": "Others",
+        "note": "Cloudfunding",
+        "url": "https://camp-fire.jp/projects/view/726330",
+        "img": "p-takarazukaterrace-cf-igpost3.jpg",
+        "href": "others-takarazukaterrace-cloudfunding-ig"
     },
     {
         "client": "宝塚TERRACE",
